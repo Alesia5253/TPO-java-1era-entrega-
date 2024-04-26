@@ -174,21 +174,23 @@ body {
 
 .section-suscripcion {
     margin: 10vh;
+    margin-left: 62vh;
+    margin-right: 62vh;
     text-align: center;
     background-color: rgb(248, 250, 251);
     border-radius: 30px;
     font-size: large;
     box-shadow: 10px 10px 20px rgb(0,0,0, 0.8);
-    align-items: center;
 }
 
 .suscripcion{
-    padding-top: 3vh; /* Establece el espacio de relleno en la parte superior */
-    padding-right: 4vw; /* Establece el espacio de relleno en la parte derecha */
-    padding-bottom: 2vh; /* Establece el espacio de relleno en la parte inferior */
-    text-align: center; /* Centra el texto */
-    justify-content: center; /* Permite que los elementos se alineen en el centro del contenedor */
-    align-items: center; /* Centra las los elementos */
+    padding-top: 3vh; 
+    padding-right: 4vw; 
+    padding-left: 4vw;
+    padding-bottom: 2vh; 
+    text-align: center; 
+    justify-content: center; 
+    align-items: center; 
 } 
 
 .suscripcion input {
